@@ -81,7 +81,7 @@ Output:
 
 3. Build an OTP API for validation and verification
 
-
+In general, we use third party API's to send the data to mobile or email. For this we use textlocal apis, here I randomly generated the OTP and send as a json response back to the URL. So, written two apis , one is to get the OTP for the particular mobile number other is to verify the generated OTP with regards the same number.
 #########fOR GENERATING OTP##########
 REQUEST-TYPE: POST
 INPUT-TYPE: JSON
